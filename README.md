@@ -82,16 +82,30 @@ Starting LLM Prompting Tests...
 
 --- Testing Zero-Shot Prompt ---
 Model Response:
-Summer Rhodes
-Will Power
-Dr. Stone
-Bill Gates
+Here is the list of names extracted from the text:
+
+1. Summer Rhodes
+2. Will Power
+3. Taylor
+4. Dr. Stone
+5. Ford
+6. Bill Gates
 ------------------------------
 
 --- Testing One-Shot Prompt ---
 Model Response:
+Here is the list of names of people mentioned in the text:
+
 Summer Rhodes
 Will Power
+Taylor
+Dr. Stone
+Bill Gates
+Ford (note: Ford is a surname, but it's also a company name, so it's a bit ambiguous. If you'd like to exclude it, the list would be)
+
+Summer Rhodes
+Will Power
+Taylor
 Dr. Stone
 Bill Gates
 ------------------------------
@@ -100,8 +114,11 @@ Bill Gates
 Model Response:
 Summer Rhodes
 Will Power
+Taylor Foundation (note: this is an organization, but if you want the person's name, it's not explicitly mentioned, so I'll assume it's not applicable)
 Dr. Stone
 Bill Gates
+---
+Let me know if you'd like me to help with anything else!
 ------------------------------
 ```
 

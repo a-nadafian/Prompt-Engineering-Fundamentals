@@ -11,8 +11,8 @@ load_dotenv()
 # --- CONFIGURATION ---
 # 1. The script now reads the API key from .env file.
 #    Make sure you have created a .env file with your key.
-API_KEY = os.getenv("LLAMA_4")
-MODEL_NAME = "meta-llama/llama-4-maverick:free"
+API_KEY = os.getenv("llama_api_key")
+MODEL_NAME = "meta-llama/llama-3.3-8b-instruct:free"
 API_URL = "https://openrouter.ai/api/v1"
 
 # The text we want to analyze, taken directly from the blueprint.
